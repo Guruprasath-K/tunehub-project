@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuneHub : ADMIN HOME</title>
+    <link rel="stylesheet" th:href="@{/css/admin-customer-style.css}" />
+</head>
+<body>
+    <div class="container">
+        <h1>ADMIN HOME</h1>
+        <div class="button-container">
+            <a th:href="@{/newSong}" class="button">Add a new song</a>
+            <a th:href="@{/viewSongs}" class="button">View all songs</a>
+            <a th:href="@{/createPlaylist}" class="button">Create a Playlist</a>
+            <a th:href="@{/viewPlaylists}" class="button">View all Playlists</a>
+        </div>
+    </div>
+</body>
+</html>
